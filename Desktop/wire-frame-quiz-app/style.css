@@ -1,0 +1,35 @@
+.page-title{
+  border-style:solid;
+  border-color:blue;
+  text-align: center;
+}
+
+
+.ketogenic{
+  border-style:solid;
+  border-color:black;
+  text-align:center;
+}
+
+.start-quiz{
+  border-style:solid;
+  border-color: grey;
+  text-align:center;
+  margin: 30px;
+  padding: 10px 0;
+
+  }
+
+.img{
+  border-style:solid;
+  border-color:purple;
+  text-align:center;
+}
+
+.goodFeedBack{
+  border-style:solid;
+  border-color: black;
+}
+
+
+
