@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    background: url('https://images.unsplash.com/photo-1457296898342-cdd24585d095?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60') fixed;
+    color: #363946;
+}
+/*header styling*/
+
+header {
+    width: 100%;
+    padding: 30px 0;
+    color:white;
+    font-size: 20px;
+}
+/* Clearfix */
+
+header::before,
+header::after {
+    display: table;
+    content: '';
+}
+header::after {
+    clear: both;
+}
+.col4,
+.col8 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+.col-4 {
+    width: 33.33%
+}
+.col-8 {
+    width: 66.67%
+}
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+header ul li {
+    padding: 10px 20px;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+header ul {
+    text-align: right;
+    margin-top: 50px
+}
+
+.quizStart {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background-color: rgb(167, 84, 84);
+    color:white;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 40px
+}
+
+button:hover{
+    background-color: #363946;
+}
+
+main div {
+    margin: 0 auto;
+}
+
+label:nth-child(1) {
+    background-color: rgb(187, 186, 186)
+}
+
+label:nth-child(2) {
+    background-color: rgb(152, 147, 147)
+}
+
+label:nth-child(3) {
+    background-color: rgb(122, 119, 119);
+}
+
+label:nth-child(4) {
+    background-color: rgb(83, 81, 81); 
+}
+
+label {
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    line-height: 22px
+}
+
+label:hover, label:focus {
+    background-color: rgb(167, 84, 84);
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+input:checked {
+    border: 20px;
+}
+
+input[type=radio] {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 40px;
+    color: white;
+}
+
+form button {
+    padding: 20px;
+    border: none;
+    background-color:rgb(81, 80, 80);
+    color: white;
+    font-size: 18px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+form button:hover, form button:focus {
+    background-color:rgb(167, 84, 84);
+    color:white;
+}
+
+.answer {
+    flex: 1 1 auto;
+}
+
+.questionAnswerForm {
+    display: none;
+    width: 50%;
+}
+
+.correctFeedback {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(245, 255, 255, 1) 0%,blue 100%);
+    padding-top: 40px;
+}
+
+.correctFeedback button {
+    width: 100%;
+}
+
+.correctFeedback p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.correctFeedback span {
+    color:rgb(167, 84, 84);
+}
+
+.correctFeedback img {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    background-color:rgb(167, 84, 84) ;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+h3 {
+    color: #AF6438;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.results img {
+    width: 150px;
+    height: auto;
+}
+
+.results p:first-of-type {
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+.results p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0
+}
+
+.restartButton {
+    margin-top: 40px
+}
