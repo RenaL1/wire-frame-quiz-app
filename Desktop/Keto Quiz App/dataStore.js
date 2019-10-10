@@ -1,14 +1,14 @@
 const STORE = [
   { 
-    question: 'What is the foundation of a ketogonic diet?',
+    question: 'What is the foundation of a ketogonic diet ?',
     answers:
      [
       '20 percent fat, 60 percent protein, 20 percent carbs',
       '20 percent fat, 60 percent protein, 20 percent carbs',
-      '0 percent proten, 15 percent protien, 85 percent carbs',
-      '75 percnt fat, 25 percent protien, 5 percent carbs',
+      '0 percent fat, 15 percent protein, 85 percent carbs',
+      '75 percent fat, 25 percent protein, 5 percent carbs',
      ],
-      correctAnswer:'75 percnt fat, 25 percent protien, 5 percent carbs',
+      correctAnswer:'75 percent fat, 25 percent protein, 5 percent carbs',
      },
 
   {
@@ -24,19 +24,19 @@ const STORE = [
   },
 
   {
-    question: 'Which one of the following statements about exercise is correct?',
+    question: 'Which one of the following statements about exercise is correct ?',
     answers:
     [
-    'You cannot outrun a bad diet',
+    'You can not outrun a bad diet',
     'You should always fast before your workouts',
     'You need to exercise at least 5 times per week',
     'All of the above',
     ],
-    correctAnswer:'You cannot outrun a bad diet',
+    correctAnswer:'You can not outrun a bad diet',
   },
 
 {
-question:'Which one of the following fats is not recommended for a healthy keto diet?',
+question:'Which one of the following fats is not recommended for a healthy keto diet ?',
  answers:
  [
    'Vegetable oils',
@@ -48,12 +48,12 @@ question:'Which one of the following fats is not recommended for a healthy keto 
   },
 
  {
-question:'Which one of the following statements iscorrect?',
+question:'Which one of the following statements is correct ?',
 answers: 
 [
-  'Your ketone leYou always needs to be at least 2 mM for optimal fat burning',
+  'You always needs to be at least 2 mM for optimal fat burning',
   'You should eat more fat to enter ketosis',
-  'You need to moniter your hormonal levels',
+  'You need to monitor your hormonal levels',
   'Sufficient protein is important for inducing satiety',
 ],
 correctAnswer:'Sufficient protein is important for inducing satiety'
